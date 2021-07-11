@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSThread *thread;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)button:(id)sender;
+
 
 @end
 
